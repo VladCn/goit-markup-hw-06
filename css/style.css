@@ -804,5 +804,18 @@ address {
     border: 1px solid rgba(33, 33, 33, 0.2);
     box-sizing: border-box;
     border-radius: 4px;
+    padding-left: 12px;
 }
+.div-inp{
+    position: relative;
+}
+.modal-svg{
+    position: absolute;
+    top: 50%;
+    left: 12px;
+    fill: black;
+    transform: translateY(-50%);
+}
+
+
 /*===============================MODAL END===============================*/
