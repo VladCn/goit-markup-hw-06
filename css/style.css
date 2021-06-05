@@ -686,6 +686,9 @@ address {
     margin-right: 12px;
 }
 .foot-butt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 200px;
     height: 50px;
     background: #2196F3;
@@ -697,8 +700,19 @@ address {
     text-align: center;
     letter-spacing: 0.06em;
     color: #FFFFFF;
-
+    cursor: pointer;
+    margin-right: 10px;
 }
+.foot-flex{
+    display: flex;
+}
+/*.foot-butt svg{*/
+/*    vertical-align: center;*/
+/*}*/
+/*foot-podp-svg{*/
+/*    display: inline-block;*/
+/*    vertical-align: baseline;*/
+/*}*/
 /*===============================FOOTER END===============================*/
 /*===============================MODAL===============================*/
 .backdrop{
