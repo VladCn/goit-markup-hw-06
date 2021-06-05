@@ -768,5 +768,11 @@ address {
         transform: scale(1);
     }
 }
-
+.modal-ul{
+    display: flex;
+    flex-direction: column;
+}
+.modal-span{
+    display: block;
+}
 /*===============================MODAL END===============================*/

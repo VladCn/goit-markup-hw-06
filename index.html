@@ -382,7 +382,7 @@
                     Подпишитесь на рассылку
                 </label>
                 <div class="foot-flex">
-                <input class="foot-inp" type="email" name="email" placeholder="E-mail"/>
+                <input class="foot-inp" type="email" name="email" placeholder="E-mail">
                 <button class="foot-butt" type="submit">Подписаться
                 <svg class="foot-podp-svg" width="24" height="24">
                     <use href="./images/sprite.svg#icon-icon-send"></use>
@@ -403,6 +403,36 @@
                 <use href="./images/sprite.svg#icon-close-black"></use>
             </svg>
         </button>
+        <form class="form-modal" name="form-modal" autocomplete="on" novalidate>
+            <span>Оставьте свои данные, мы вам перезвоним</span>
+            <ul class="modal-ul">
+                <li class="modal-li">
+            <label class="modla-label">
+                <span class="modal-span">Имя</span>
+                <input type="name" name="name">
+            </label>
+                </li>
+                <li class="modal-li">
+            <label class="modla-label">
+                <span class="modal-span">Телефон</span>
+                <input type="tel" name="tel">
+            </label>
+                </li>
+                <li class="modal-li">
+            <label class="modla-label">
+                <span class="modal-span">Почта</span>
+                <input type="email" name="email">
+            </label>
+                </li>
+                <li class="modal-li">
+            <label>
+               <span class="modal-span">Комментарий</span>
+            <textarea class="modal-texta">
+            </textarea>
+            </label>
+                </li>
+            </ul>
+        </form>
     </div>
 </div>
 <!--===================================MODAL END==========================================-->
