@@ -686,7 +686,7 @@ address {
     margin-right: 12px;
 }
 .foot-inp::placeholder{
-    color:rgba(255, 255, 255, 0,6);
+    color:rgba(255, 255, 255, 0.6);
 }
 
 .foot-butt{
@@ -824,6 +824,9 @@ address {
     border-radius: 4px;
     padding-left: 42px;
     cursor: pointer;
+    transition-property: border-color;
+    transition-duration: 250ms;
+    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-input:hover,
 .modal-input:focus{
@@ -842,6 +845,9 @@ address {
     left: 12px;
     fill: black;
     transform: translateY(-50%);
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
 }
 .svg-dogov{
     fill: white;
@@ -886,6 +892,9 @@ address {
     letter-spacing: 0.06em;
     color: #FFFFFF;
     cursor: pointer;
+    transition-property: background;
+    transition-duration: 250ms;
+    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
 }
 .but-otpr:hover,
 .but-otpr:focus{
