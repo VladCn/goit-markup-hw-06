@@ -696,23 +696,17 @@ address {
     border-radius: 4px;
     font-weight: bold;
     font-size: 16px;
-    line-height: 30px;
-    text-align: center;
     letter-spacing: 0.06em;
     color: #FFFFFF;
     cursor: pointer;
-    margin-right: 10px;
 }
 .foot-flex{
     display: flex;
 }
-/*.foot-butt svg{*/
-/*    vertical-align: center;*/
-/*}*/
-/*foot-podp-svg{*/
-/*    display: inline-block;*/
-/*    vertical-align: baseline;*/
-/*}*/
+
+.foot-podp-svg{
+    margin-left: 10px;
+}
 /*===============================FOOTER END===============================*/
 /*===============================MODAL===============================*/
 .backdrop{
